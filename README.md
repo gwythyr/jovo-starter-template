@@ -3,9 +3,10 @@
 # Template: Starter
 
 Includes default Alexa and Google Assistant intents, Alexa middleware setup and mapping for platform specific intents.
-You can use next command to start development with this template:
+Copy-paste and run next commands to start development with this template:
 
 ```sh
-$ jovo new <directory> --template helloworld
+$ git clone https://github.com/gwythyr/jovo-starter-template.git <your project folder name>
+$ npm install
 ```
 
