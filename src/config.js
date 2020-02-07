@@ -12,6 +12,11 @@ module.exports = {
         'AMAZON.HelpIntent': 'HelpIntent',
         'AMAZON.NavigateHomeIntent': 'NavigateHomeIntent'
     },
+    
+    intentsToSkipUnhandled: [
+        'AMAZON.CancelIntent',
+        'AMAZON.StopIntent'
+    ],
  
     db: { },
  };
